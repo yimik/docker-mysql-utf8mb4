@@ -14,7 +14,6 @@ expire_logs_days=7
 max_binlog_size=100m
 binlog_cache_size=4m
 max_binlog_cache_size=512m
-default-time_zone='+8:00'
 
 [client]
 default-character-set=utf8mb4
