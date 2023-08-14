@@ -1,5 +1,7 @@
 FROM biarms/mysql:5.7
 
+RUN apt update && apt install mysql-client-core-5.7
+
 ENV TZ=Asia/Shanghai
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
